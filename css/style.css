@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Encabezado {
+    background-color: beige;
+    
+}
+
+.encabezado-img{
+    width: 10%;
+    display: inline-block;
+    margin-top: 1rem;
+
+
+}
+.imagen-centro{
+    border-style: double;
+    color: rgb(25, 5, 44);
+    width: 100%;
+
+}
+nav{
+    display: inline-block;
+    width: 70%;
+}
+
+.navbar{
+    list-style: none;
+    
+}
+
+.navbar li{
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 2.0 rem;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 50px;
+    
+    
+}
+
+.pie-de-pagina{
+    background-color: rgb(196, 111, 196);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.pie-de-pagina p {
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align:center;
+    grid-area: copy;
+
+}
+ .pie-de-pagina :hover{
+     color: blue;
+ }
+
+
+.galeria{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contenedor-img{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows:200px;
+    width:80%;
+    grid-gap:1rem;
+     
+
+}
+
+.contenedor-img img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+
+
+@media screen and (max-width:1200px){
+    body{
+        background-color:rgb(210, 164, 210);
+    }
+}
+    
+
+
